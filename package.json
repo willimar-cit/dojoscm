@@ -4,8 +4,8 @@
   "description": "Dojo Sample Mocha Test Server",
   "scripts": {
     "start": "node app.js",
-    "mocha": "mocha --reporter spec test.js",
-    "test": "mocha test.js --reporter mocha-junit-reporter --reporter-options mochaFile=test-reports.xml --exit"
+    "mocha": "mocha --reporter spec teste.js",
+    "test": "mocha teste.js --reporter mocha-junit-reporter --reporter-options mochaFile=test-reports.xml --exit"
   },
   "repository": {
     "type": "git",
